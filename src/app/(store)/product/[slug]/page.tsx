@@ -37,7 +37,7 @@ export default function ProductPage() {
           <div className="flex gap-2">
             <button
               type="button"
-              className="flex h-9 w-14 items-center justify-center rounded-full border-zinc-700 bg-zinc-800 text-sm font-semibold"
+              className="flex h-9 w-14 items-center justify-center rounded-full border-zinc-700 bg-zinc-800 text-sm font-semibold hover:opacity-80"
             >
               P
             </button>
@@ -70,7 +70,7 @@ export default function ProductPage() {
 
         <button
           type="button"
-          className="mt-8 flex h-12 items-center justify-center rounded-full bg-emerald-600 font-semibold text-white"
+          className="mt-8 flex h-12 items-center justify-center rounded-full bg-emerald-600 font-semibold text-white hover:opacity-80 cursor-pointer"
         >
           Adicionar ao carrinho
         </button>
